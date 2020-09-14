@@ -1,0 +1,7 @@
+#daftar table  td{
+    padding: 10px;
+}
+#daftar table thead {
+    background-color: cornflowerblue;
+    color: cornsilk ;
+}

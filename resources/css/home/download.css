@@ -1,0 +1,171 @@
+/* swipper css */
+.swiper-container {
+    width: 100%;
+    height: 300px;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: red;
+    height: 100%;
+    border-radius:10px;
+    
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  /* aside */
+  aside {
+      margin-top:30px;
+  }
+
+  #konten {
+      margin-top:40px;
+  }
+  
+ #head-kategori {
+     background-color: blue;
+     margin-left:10px;
+     width: 250px;
+
+ }
+  #konten  h5 {
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    font-family: arial;
+    padding: 6px;
+  }
+  #selengkapnya a {
+      position: relative;
+      float: right;
+      font-size: 25px;
+      color: red;
+      right: 10px;
+  }
+
+  @media screen and (max-width:576px){
+      #head-kategori{
+          width: 150px;
+          margin-left: 0;
+      }
+      #konten h5 {
+          font-size:17px;
+      }
+      #selengkapnya a {
+          font-size: 17px;
+      }
+
+  }
+
+
+  
+  #dashboard button {
+    background-color: blue;
+    margin-left: 40%;
+    width: 20%;
+    border-radius: 20px;
+  }
+  #dashboard button p {
+      color: white;
+      font-size: 20px;
+      padding-top: 7px;
+      text-transform: capitalize;
+      font-weight: bold;
+  }
+
+  @media screen and (max-width:576px){
+      #dashboard button  {
+        width: 70%;
+        margin-left:15% ;
+        height: 40px;
+      }
+      #dashboard button p {
+          padding-top: 0;
+      }
+      #dashboard h2 {
+          font-size: 25px;
+      }
+      #kategori h2 {
+          font-size: 20px;
+      }
+  }
+
+  footer {
+      margin-top: 100px;
+      background-color: lightslategray;
+  }
+  footer h2 {
+      padding-top: 50px;
+      font-weight: bold;
+      color: white;
+  }
+
+
+  @media screen and (max-width:576px){
+      footer h2 {
+          font-size: 20px;
+      }
+  }
+  
+
+/* content */
+#kotak {
+    background-color: white;
+    height: 200px;
+    margin-left: 35px;
+    margin-bottom: 30px; 
+    box-shadow: 10px 10px 10px black;
+}
+
+.card {
+    width: 190px; 
+    height: 200px; 
+    margin-left: -15px;
+}
+#header-content p {
+    font-size: 20px;
+    background-color: blue;
+    width: 50%;
+    margin-left: 70px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width:576px){
+
+
+.card {
+    width: 155px; 
+    height: 200px; 
+    margin-left: -15px;
+    }
+    #header-content p {
+        font-size: 15px;
+        background-color: blue;
+        width: 100%;
+        margin-left: 10px;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #kotak {
+        background-color: white;
+        height: 200px;
+        margin-left: 20px;
+        margin-bottom: 30px; 
+    }
+}

@@ -1,0 +1,43 @@
+body {
+    text-transform: capitalize;
+}
+nav {
+    background-color: blue;
+}
+nav a {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav button a {
+    font-size: 20px;
+    color: blue;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+nav button {
+    background-color: white;
+    border-radius: 7px;
+}
+input {
+    border-radius: 7px;
+    font-size: 20px;
+    width: 500px;
+    position: relative;
+    float: right;
+    top: 5px;
+}
+.row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:576px){
+    nav a {
+        font-size: 25px;
+    }
+    input{
+        display:none;
+    }
+}
+
